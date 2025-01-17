@@ -1,1 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9e4b7; /* Soft gingerbread color */
+    color: #3e1f1b; /* Dark chocolate brown text */
+    text-align: center;
+    padding: 20px;
+    background-image: url('gingerbread-texture.png'); /* Optional: Gingerbread house texture */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.gingerbread-house {
+    background-color: #fff7e1; /* Light frosting background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #7a3c23; /* Deep gingerbread brown */
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.button-container {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+button {
+    font-size: 18px;
+    padding: 12px 25px;
+    border: 2px solid #8e4e2b; /* Gingerbread border */
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #e1a96b; /* Gingerbread-like button color */
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button.gingerbread-brown { background-color: #8e4e2b; }
+button.frosting-pink { background-color: #f3a2c7; }
+button.candy-cane-red { background-color: #d53e3e; }
+button.peppermint-white { background-color: #ffffff; color: #3e1f1b; border: 1px solid #ccc; }
+button.butterscotch-yellow { background-color: #f5c400; }
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6b3c23; /* Warm gingerbread brown */
+    padding: 10px;
+    background-color: #f9e4b7; /* Soft background color */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+    margin: 10px auto;
+    max-width: 500px;
+    text-align: left;
+    background-color: #f1d1a1; /* Light gingerbread color */
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #5c3a2e; /* Darker gingerbread brown */
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #8e4e2b;
+    border-radius: 5px;
+    background-color: #fff1e1; /* Light icing color */
+}
+
+#counter {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #8e4e2b;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    font-size: 16px;
+    color: #5c3a2e;
+    margin: 5px 0;
+}
