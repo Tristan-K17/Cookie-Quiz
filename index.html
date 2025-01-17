@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gingerbread Cookie Color Matcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gingerbread-house">
+        <h1>Gingerbread Cookie Color Matcher</h1>
 
+        <div class="form-container">
+            <label for="username">Enter your name:</label>
+            <input type="text" id="username" placeholder="Your name" required>
+
+            <label for="age">Enter your age:</label>
+            <input type="number" id="age" min="1" max="100" placeholder="Your age" required>
+        </div>
+
+        <div class="button-container">
+            <button class="gingerbread-brown" data-color="Gingerbread Brown" data-cookie="Gingerbread Man">Gingerbread Brown</button>
+            <button class="frosting-pink" data-color="Frosting Pink" data-cookie="Iced Sugar Cookie">Frosting Pink</button>
+            <button class="candy-cane-red" data-color="Candy Cane Red" data-cookie="Candy Cane">Candy Cane Red</button>
+            <button class="peppermint-white" data-color="Peppermint White" data-cookie="Snowball Cookies">Peppermint White</button>
+            <button class="butterscotch-yellow" data-color="Butterscotch Yellow" data-cookie="Peanut Butter Cookies">Butterscotch Yellow</button>
+        </div>
+
+        <div class="result" id="result"></div>
+        <div id="counter">Quiz Taken: 0 times</div>
+        <ul id="response-list"></ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
